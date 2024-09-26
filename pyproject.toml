@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "processing-image-package"
+version = "0.1.0"
+description = ""
+authors = ["brunobrd <brunobrdk@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.1"
+scikit-image = "^0.24.0"
+pillow = "^10.4.0"
+matplotlib = "^3.9.2"
+setuptools = "^75.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
